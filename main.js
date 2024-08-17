@@ -52,6 +52,7 @@ Button.addEventListener(`click`, backgroundColor );
 
 const changetx = document.getElementById(`paragraph`)
 changetx.addEventListener(`click`, (e) => {
+     console.log(e);
      console.log(`change text`);
      p.remuve();
 });
