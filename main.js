@@ -40,7 +40,7 @@ for(let i = 0 ; i < 10; i ++){
 
 const Button = document.getElementById(`button`);
 function backgroundColor() {
-     document.body.style.backgroundColor = rgb(0, 255, 0);
+     document.body.style.backgroundColor = 'rgb(0, 255, 0)';
 }
 Button.addEventListener(`click`, backgroundColor );
 
