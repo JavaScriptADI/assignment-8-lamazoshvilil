@@ -1,7 +1,8 @@
-const button = document.createElement(`button`);
-button.innerText = `text`;
-document.body.appendChild(button);
-console.log(button);
-button.style.width = `200 px`;
-     button.style.margin = `auto`;
-     button.style.height = `100px`;
+const div = document.createElement(`div`);
+div.innerText= `game`;
+document.body.appendChild(div);
+console.log(div);
+div.addEventListener(`click`, (e) => {
+     console.log(e);
+     div.innerText=`start`;
+} );

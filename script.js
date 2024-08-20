@@ -5,6 +5,7 @@ console.log(div);
 btn.addEventListener(`click`, (e) => {
      console.log(e);
      btn.innerText = `change text`
+     p.remove();
 });
 document.body.addEventListener(`mousemove`, (e) => {
      console.log(e);
@@ -15,3 +16,6 @@ const p = document.createElement(`p`);
 p.innerText= `text`;
 document.body.appendChild(p);
 console.log(p);
+const game = document.createElement(`div`);
+div.innerText= `game`;
+console.log(div);
