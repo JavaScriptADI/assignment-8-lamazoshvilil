@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>finishTask9</title>
+
+     <style>
+          form{
+               display: flex;
+               justify-content: center;
+               height: 40px;
+               margin-top: 40px;
+          }
+          .done>span{
+               text-decoration: line-through;
+               color: greenyellow;
+          }
+          li {
+               display: flex;
+               gap: 1rem;
+               font-size: 40px;
+          }
+          li>button{
+               display: none;
+               border-radius: 100px;
+               width: 40px;
+               height: 40px;
+               border: none;
+          }
+          li:hover button{
+               background-color: red;
+               display: block;
+          }
+     </style>
+
+
+</head>
+<body>
+     <form id="searchForm">
+          <input name="search"/>
+          <button>
+               add
+          </button>
+     </form>
+     <ul id="todo-list">
+
+     </ul>
+     <script src="finishTask9.js"></script>
+</body>
+</html>
